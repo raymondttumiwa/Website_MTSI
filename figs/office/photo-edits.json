@@ -1,0 +1,137 @@
+[
+  {
+    "name": "entrance",
+    "source": "WhatsApp Image 2026-10-10 at 01.19.16 (1).jpeg",
+    "edit": "Crop, gentle colour balance and shadow lift, light sharpening; no scene changes.",
+    "crop": [
+      0.025,
+      0.025,
+      0.975,
+      0.985
+    ],
+    "gamma": 0.94,
+    "large": "figs/office/entrance-large.jpg",
+    "derivatives": [
+      {
+        "file": "figs/office/entrance-720.webp",
+        "width": 720,
+        "height": 405,
+        "bytes": 42356
+      },
+      {
+        "file": "figs/office/entrance-1440.webp",
+        "width": 1440,
+        "height": 810,
+        "bytes": 168694
+      }
+    ]
+  },
+  {
+    "name": "reception",
+    "source": "WhatsApp Image 2026-10-10 at 01.19.16 (2).jpeg",
+    "edit": "Crop, gentle colour balance and shadow lift, light sharpening; no scene changes.",
+    "crop": [
+      0,
+      0.22,
+      1,
+      0.985
+    ],
+    "gamma": 0.91,
+    "large": "figs/office/reception-large.jpg",
+    "derivatives": [
+      {
+        "file": "figs/office/reception-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 29408
+      },
+      {
+        "file": "figs/office/reception-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 109194
+      }
+    ]
+  },
+  {
+    "name": "meeting-room",
+    "source": "WhatsApp Image 2026-10-10 at 01.19.13 (1).jpeg",
+    "edit": "Crop, gentle colour balance and shadow lift, light sharpening; no scene changes.",
+    "crop": [
+      0,
+      0.19,
+      1,
+      0.97
+    ],
+    "gamma": 0.91,
+    "large": "figs/office/meeting-room-large.jpg",
+    "derivatives": [
+      {
+        "file": "figs/office/meeting-room-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 21916
+      },
+      {
+        "file": "figs/office/meeting-room-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 81646
+      }
+    ]
+  },
+  {
+    "name": "visitor-lounge",
+    "source": "WhatsApp Image 2026-10-10 at 01.19.12.jpeg",
+    "edit": "Crop, gentle colour balance and shadow lift, light sharpening; no scene changes.",
+    "crop": [
+      0,
+      0.29,
+      1,
+      0.96
+    ],
+    "gamma": 0.87,
+    "large": "figs/office/visitor-lounge-large.jpg",
+    "derivatives": [
+      {
+        "file": "figs/office/visitor-lounge-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 17538
+      },
+      {
+        "file": "figs/office/visitor-lounge-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 64182
+      }
+    ]
+  },
+  {
+    "name": "workspace",
+    "source": "WhatsApp Image 2026-10-10 at 01.19.18.jpeg",
+    "edit": "Crop, gentle colour balance and shadow lift, light sharpening; no scene changes.",
+    "crop": [
+      0.015,
+      0.025,
+      0.985,
+      0.97
+    ],
+    "gamma": 0.93,
+    "large": "figs/office/workspace-large.jpg",
+    "derivatives": [
+      {
+        "file": "figs/office/workspace-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 21448
+      },
+      {
+        "file": "figs/office/workspace-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 79102
+      }
+    ]
+  }
+]

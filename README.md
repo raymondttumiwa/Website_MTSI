@@ -24,3 +24,7 @@ Edit the original Website-MTSI files, then run `python3 prepare_github_pages.py`
 Run `python3 -m http.server 8000` from this folder and open `http://localhost:8000`.
 
 The contact form opens the visitor's email app with a draft addressed to `mtsi@muliatsi.co.id`; it does not need a server.
+
+## Office photographs
+
+The office portfolio uses edited photographs in `figs/office/`, with responsive WebP previews and larger JPEGs. The original photographs remain in the local `GreenLake Company Pictures` folder. To regenerate the website images, install Pillow and NumPy and run `python3 scripts/prepare_office_photos.py`. The edit manifest records each source and its crop and tonal adjustments; the editing process preserves the photographed rooms and company signage.
