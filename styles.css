@@ -273,8 +273,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .principal-logo img[alt^="NEUMAN"] { max-height: 90px; }
 .service-ribbon { display: block; margin: 28px auto 0; padding: 0; text-align: left; }
 .service-ribbon h3 { margin: 0 0 20px; color: var(--red); }
-.service-ribbon ol { margin: 0; padding-left: 1.4rem; color: var(--ink); font-size: clamp(1rem, 1.2vw, 1.1rem); font-weight: 700; line-height: 1.9; }
-.service-ribbon li { padding-left: 6px; }
+.service-ribbon ol { display: flex; flex-wrap: wrap; gap: 16px; margin: 0; padding: 0; list-style-position: inside; color: var(--red); font-size: clamp(1.1rem, 1.5vw, 1.25rem); font-weight: 700; line-height: 1.4; }
+.service-ribbon li { max-width: 100%; padding: 18px 26px; border: 2px solid var(--red); border-radius: 999px; background: #d9ebe4; }
 .service-ribbon li::marker { color: var(--red); font-weight: 700; }
 .portfolio-intro { margin-bottom: 24px; }
 .epc-description { max-width: var(--content-width); margin: 0 auto 24px; color: var(--muted); font-size: .9rem; line-height: 1.65; }
@@ -290,6 +290,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 @media (max-width: 760px) {
   .products, .portfolio, .contact { padding-block: 40px; }
+  .service-ribbon li { width: 100%; padding: 16px 20px; }
   .section-intro { margin-bottom: 28px; }
   .section-lede { margin-top: 20px; }
   .hero-metrics { grid-template-columns: minmax(0, 1fr); gap: 0; margin-top: 28px; padding-top: 0; }
