@@ -6,7 +6,7 @@ a { color: inherit; text-decoration: none; }
 .principal-shell { min-height: 100vh; }
 .principal-nav { position: sticky; top: 0; z-index: 3; display: flex; align-items: center; justify-content: space-between; gap: 22px; padding: 16px clamp(22px, 6vw, 90px); background: rgba(8, 28, 21, .94); border-bottom: 1px solid rgba(235,242,250,.12); backdrop-filter: blur(14px); }
 .principal-brand { display: flex; align-items: center; gap: 11px; font: 700 1rem "Space Grotesk", sans-serif; letter-spacing: .12em; }
-.principal-brand img { width: 38px; height: 38px; padding: 4px; border-radius: 50%; background: var(--ice); }
+.principal-brand img { width: 38px; height: 38px; padding: 0; background: transparent; }
 .principal-links { display: flex; align-items: center; gap: 22px; color: var(--muted); font-size: .68rem; text-transform: uppercase; letter-spacing: .1em; }
 .principal-links a:hover { color: var(--gold); }
 .principal-cta { padding: 10px 15px; color: var(--deep); background: var(--gold); border-radius: 999px; font-size: .64rem; font-weight: 700; letter-spacing: .1em; }
@@ -38,8 +38,8 @@ a { color: inherit; text-decoration: none; }
 em { font-style: normal; color: var(--gold); }
 .supplier-heading { display: grid; grid-template-columns: minmax(0, 1fr) 260px; align-items: start; gap: 50px; }
 .supplier-heading h1 { font-size: clamp(3rem, 6vw, 6rem); }
-.supplier-logo { display: grid; place-items: center; padding: 18px; border-radius: 12px; background: var(--ice); }
-.supplier-logo img { display: block; width: 100%; height: 140px; object-fit: contain; }
+.supplier-logo { display: grid; place-items: start; padding: 0; background: transparent; }
+.supplier-logo img { display: block; width: 100%; height: 140px; object-fit: contain; object-position: left top; filter: brightness(0) invert(1); }
 .catalog-jump { display: inline-block; margin-top: 35px; padding: 13px 18px; color: var(--deep); background: var(--gold); border-radius: 999px; font-size: .75rem; font-weight: 700; }
 #catalog { scroll-margin-top: 90px; }
 .supplier-photo { margin: 0 0 28px; }
